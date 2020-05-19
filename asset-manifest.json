@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "th3c0d3br34ker.github.io/static/css/main.9a204a96.chunk.css",
+    "main.js": "th3c0d3br34ker.github.io/static/js/main.fba634f5.chunk.js",
+    "main.js.map": "th3c0d3br34ker.github.io/static/js/main.fba634f5.chunk.js.map",
+    "runtime-main.js": "th3c0d3br34ker.github.io/static/js/runtime-main.acc931e6.js",
+    "runtime-main.js.map": "th3c0d3br34ker.github.io/static/js/runtime-main.acc931e6.js.map",
+    "static/js/2.ada5e503.chunk.js": "th3c0d3br34ker.github.io/static/js/2.ada5e503.chunk.js",
+    "static/js/2.ada5e503.chunk.js.map": "th3c0d3br34ker.github.io/static/js/2.ada5e503.chunk.js.map",
+    "index.html": "th3c0d3br34ker.github.io/index.html",
+    "precache-manifest.0cd43e7af780702147d1ae607c39edd1.js": "th3c0d3br34ker.github.io/precache-manifest.0cd43e7af780702147d1ae607c39edd1.js",
+    "service-worker.js": "th3c0d3br34ker.github.io/service-worker.js",
+    "static/css/main.9a204a96.chunk.css.map": "th3c0d3br34ker.github.io/static/css/main.9a204a96.chunk.css.map",
+    "static/media/index.css": "th3c0d3br34ker.github.io/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/contactMail.png": "th3c0d3br34ker.github.io/static/media/contactMail.d6d4086f.png",
+    "static/media/developerActivity.svg": "th3c0d3br34ker.github.io/static/media/developerActivity.59389695.svg",
+    "static/media/manOnTable.svg": "th3c0d3br34ker.github.io/static/media/manOnTable.52be3144.svg",
+    "static/media/skill.svg": "th3c0d3br34ker.github.io/static/media/skill.34409398.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.acc931e6.js",
+    "static/js/2.ada5e503.chunk.js",
+    "static/css/main.9a204a96.chunk.css",
+    "static/js/main.fba634f5.chunk.js"
+  ]
+}
