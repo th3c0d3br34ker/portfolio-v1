@@ -6,6 +6,7 @@ import StackProgress from "./skillProgress/skillProgress";
 import Footer from "../components/footer/Footer";
 import Top from "./topbutton/Top";
 import Profile from "./profile/Profile";
+import Projects from "./projects/Projects"
 
 export default class Main extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class Main extends Component {
         <Greeting />
         <Skills />
         <StackProgress />
+        <Projects />
         <Profile />
         <Footer />
         <Top />

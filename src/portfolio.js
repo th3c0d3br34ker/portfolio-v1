@@ -109,8 +109,7 @@ const techStack = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken:
-    "NTk2ZDI1MzI5MjQzMjIyYmM1NWRjYTc2ZTFiODIwOWE2OTgwOGQ0Yw==",
+  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "th3c0d3br34ker",
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
 };
