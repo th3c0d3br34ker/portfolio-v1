@@ -129,7 +129,7 @@
   .blog-card:hover::before {
     transform: scale(60);
   }
-  
+
   .blog-card::before {
     transition: transform 0.5s ease-out;
   }
