@@ -1,5 +1,5 @@
 #topButton {
-  visibility:hidden;
+  visibility: hidden;
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -15,6 +15,6 @@
 }
 
 #topButton:hover {
-  background-color: #000000;
+  background-color: black;
   transition: all ease-in-out 0.2s;
 }
