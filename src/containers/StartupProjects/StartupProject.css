@@ -17,7 +17,7 @@
   font-size: 25px;
   font-weight: 700;
   letter-spacing: -0.5px;
-  margin: 0px;
+  margin: 0;
 }
 
 .startup-project-text {
@@ -28,6 +28,7 @@
 .project-card-description {
   color: rgb(88, 96, 105);
 }
+
 .saaya-health-div,
 .nextu-div {
   cursor: pointer;
@@ -37,7 +38,8 @@
   .starup-project-image {
     display: none;
   }
-  .project-subtitle{
+  
+  .project-subtitle {
     font-size: 16px;
     text-align: center;
   }

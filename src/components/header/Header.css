@@ -3,7 +3,7 @@
 .header {
   max-width: 90%;
   padding: 20px 10px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .header ul {
@@ -13,6 +13,7 @@
   overflow: hidden;
   background-color: #fff;
 }
+
 .grey-color {
   color: #868e96;
 }
@@ -37,9 +38,10 @@
   margin-top: 10px;
   line-height: normal;
 }
+
 .header .logo-name {
   color: #202020;
-  font-family: "Consolas";
+  font-family: Consolas;
   font-weight: bold;
   padding: 0 10px;
 }
