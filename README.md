@@ -8,6 +8,7 @@ My Website made with reactjs and hosted on Github Pages.
 
 ✔️ Summary and About me\
 ✔️ Skills \
-✔️ Contact me
+✔️ Open Source Projects Connected with Github\
+✔️ Github Profile
 
 To check it out, **[click here](https://th3codebr34ker.github.io/)**
