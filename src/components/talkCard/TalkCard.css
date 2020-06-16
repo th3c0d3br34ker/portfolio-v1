@@ -5,7 +5,7 @@
 
 /* Rectangle Card Layout */
 .rectangle {
-  background: url("../../assets/images/talksCardBack.svg");
+  background: url(../../assets/images/talksCardBack.svg);
   width: 380px;
   height: 300px;
   border-radius: 4px;
@@ -85,9 +85,11 @@
     clip-path: none;
     position: relative;
   }
+
   .talk-card-title {
     margin-top: 30px;
   }
+
   .talk-card-image {
     width: 100%;
   }

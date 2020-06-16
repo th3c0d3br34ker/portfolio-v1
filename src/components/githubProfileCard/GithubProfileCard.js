@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import "./GithubProfileCard.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { contactInfo } from "../../portfolio";
