@@ -1,4 +1,4 @@
-﻿/* Change this file to get your personal Portfolio */
+/* Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
 
@@ -55,11 +55,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js-square",
     },
     {
-      skillName: "html-5",
+      skillName: "HTML 5",
       fontAwesomeClassname: "fab fa-html5",
     },
     {
-      skillName: "css3",
+      skillName: "CSS 3",
       fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
@@ -67,7 +67,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-bootstrap",
     },
     {
-      skillName: "reactjs",
+      skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react",
     },
     {
@@ -79,7 +79,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm",
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database",
     },
   ],
