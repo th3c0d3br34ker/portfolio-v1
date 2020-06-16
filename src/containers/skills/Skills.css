@@ -17,7 +17,7 @@
 }
 
 .skills-heading {
-  font-size: 30px;
+  font-size: 56px;
   font-weight: 400;
   line-height: normal;
 }
@@ -25,20 +25,20 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
-    font-size: 25px;
+    font-size: 40px;
   }
 }
 @media (max-width: 768px) {
   .skills-heading {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
   }
   .greeting-text-p {
-    font-size: 12px;
+    font-size: 16px;
     line-height: normal;
   }
   .skills-main-div {
-    flex-direction: column;
+    flex-direction: column
   }
   .skills-text-div {
     margin-left: 0px;

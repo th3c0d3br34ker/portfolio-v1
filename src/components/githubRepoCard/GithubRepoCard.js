@@ -20,10 +20,10 @@ export default function GithubRepoCard({ repo }) {
             <svg
               aria-hidden="true"
               className="octicon"
-              height="16"
+              height="20"
               role="img"
               viewBox="0 0 12 16"
-              width="12"
+              width="14"
               className="repo-svg"
             >
               <path
@@ -47,10 +47,10 @@ export default function GithubRepoCard({ repo }) {
                 <svg
                   aria-hidden="true"
                   className="octicon"
-                  height="16"
+                  height="20"
                   role="img"
                   viewBox="0 0 10 16"
-                  width="10"
+                  width="12"
                   fill="rgb(106, 115, 125)"
                   className="repo-star-svg"
                 >
@@ -65,7 +65,7 @@ export default function GithubRepoCard({ repo }) {
                 <svg
                   aria-hidden="true"
                   className="octicon"
-                  height="16"
+                  height="20"
                   role="img"
                   viewBox="0 0 14 16"
                   width="14"
