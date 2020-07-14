@@ -9,10 +9,8 @@ const greeting = {
   username: "Jainam Desai",
   title: "Hi there, I'm Jainam",
   subTitle: emoji(
-    "Welcome to my place of passion. Programming is not only my passion but is something that I developed over time with great effort. I am driven by my insatiable fascination for Computers I learn something new every day as there is so much yet to learn. Learning never ends, so let's do it together."
+    "Welcome to my place of passion. Programming is not only my passion but is something that I developed over time with great effort. I am driven by my insatiable fascination for Computers I learn something new every day as there is so much yet to learn."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1QifztZRq8LllUJgGqBKTSIbLk4BpbIcs/view",
 };
 
 // Your Social Media Link
@@ -20,7 +18,6 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://www.github.com/th3c0d3br34ker/",
   linkedin: "https://www.linkedin.com/in/jainam-desai/",
-  gmail: "jainamvipul.desai2019@vitstudent.ac.in",
   facebook: "https://www.facebook.com/its.jainam/",
   instagram: "https://www.instagram.com/_the_apollyon_/",
   telegram: "https://t.me/jainamd",
@@ -91,16 +88,28 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Programming",
+      Stack: "python",
       progressPercentage: "75%",
     },
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "50%", //Insert relative proficiency in percentage
+      Stack: "C/C++",
+      progressPercentage: "72%",
+    },
+    {
+      Stack: "Java",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "ReactJS",
+      progressPercentage: "74%",
     },
     {
       Stack: "Backend",
       progressPercentage: "60%",
+    },
+    {
+      Stack: "Design",
+      progressPercentage: "40%",
     },
   ],
 };
@@ -167,8 +176,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-9874307594",
-  email_address: "jainamvipul.desai2019@vitstudent.ac.in",
+  number: "",
+  email_address: "",
 };
 
 //Twitter Section
