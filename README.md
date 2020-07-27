@@ -4,7 +4,7 @@
 
 My Website made with reactjs and hosted on Github Pages.
 
-## Sections
+## Sections 📚
 
 ✔️ Summary and About me\
 ✔️ Skills \
