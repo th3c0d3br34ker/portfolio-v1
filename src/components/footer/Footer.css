@@ -1,6 +1,6 @@
 .footer-text {
   text-align: center;
-  color: #868e96;
+  color: var(--font-color);
 }
 
 .footer-div {

@@ -22,10 +22,10 @@
 }
 
 .software-skill-inline > p {
-  color: #868e96;
+  color: var(--font-color);
   font-size: 10px;
 }
 
 .software-skill-inline > i:hover ~ p {
-  color: #404040;
+  color: var(--font-color);
 }

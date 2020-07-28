@@ -1,14 +1,15 @@
 .profile-image {
   border-radius: 50%;
-  border: 0.5rem solid #404040;
+  border: 0.5rem solid rgba(255, 255, 255, 0.8);
   margin-left: auto;
   width: 100%;
   max-width: 350px;
   height: auto;
+  transform: translateX(-25%);
 }
 
 .profile-image:hover {
-  box-shadow: rgba(0, 0, 0, 1) 0 30px 30px -30px;
+  box-shadow: rgba(255, 255, 255, 0.8) 0 30px 30px -30px;
   transition: all 0.3s ease-out;
 }
 
@@ -16,10 +17,13 @@
   margin: 0;
   font-size: 40px;
   font-weight: 400;
+  color: var(--font-color);
 }
 
 .location-div {
   text-shadow: blanchedalmond;
+  color: var(--font-color);
+  fill: var(--font-color);
 }
 
 .opp-div {
@@ -44,14 +48,19 @@
 .bio-text {
   line-height: 30px;
   font-size: 22px;
+  color: var(--font-color);
 }
 
 .desc-prof {
   line-height: 45px;
   font-size: 19px;
+  color: var(--font-color);
 }
 
 @media (max-width: 768px) {
+  .profile-image {
+    transform: translateX(0);
+  }
   .row {
     display: flex;
     flex-direction: column;
