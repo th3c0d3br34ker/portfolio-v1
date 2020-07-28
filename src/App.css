@@ -28,3 +28,7 @@
 .subTitle {
   color: #868e96;
 }
+
+@import "./containers/container.css";
+
+@import "./components/components.css";
