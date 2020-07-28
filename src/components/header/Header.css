@@ -12,7 +12,6 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: var(--background-color);
 }
 
 .grey-color {
@@ -28,7 +27,9 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: var(--font-color);
+  color: var(--background-color);
+  transition: 0.3s ease-in-out;
 }
 
 .header .logo {
