@@ -7,7 +7,7 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jainam Desai",
-  title: "Hi there, I'm Jainam",
+  title: "Hi, I'm Jainam",
   subTitle: emoji(
     "Welcome to my place of passion. Programming is not only my passion but is something that I developed over time with great effort. I am driven by my insatiable fascination for Computers I learn something new every day as there is so much yet to learn."
   ),
@@ -34,9 +34,6 @@ const skillsSection = {
     emoji("⚡ Web 🌐 and Desktop 🖥️ Applications"),
     emoji("⚡ Machine Learning and Deep Learning"),
   ],
-
-  /* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {

@@ -1,6 +1,5 @@
 ﻿import React from "react";
-import "./Greeting.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
+import SocialMedia from "../../components/socialMedia/SocialMedia.jsx";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";

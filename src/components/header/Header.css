@@ -4,6 +4,7 @@
   max-width: 90%;
   padding: 20px 10px;
   margin: 0 auto;
+  background-color: var(--background-color);
 }
 
 .header ul {
@@ -11,7 +12,6 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
 }
 
 .grey-color {
@@ -21,13 +21,15 @@
 .header li a {
   display: block;
   padding: 20px 20px;
-  color: black;
+  color: var(--font-color);
   text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: var(--font-color);
+  color: var(--background-color);
+  transition: 0.3s ease-in-out;
 }
 
 .header .logo {
@@ -40,7 +42,7 @@
 }
 
 .header .logo-name {
-  color: #202020;
+  color: var(--font-color);
   font-family: Consolas;
   font-weight: bold;
   padding: 0 10px;
@@ -63,10 +65,11 @@
   padding: 28px 20px;
   position: relative;
   user-select: none;
+  color: var(--font-color);
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: var(--font-color);
   display: block;
   height: 2px;
   position: relative;
@@ -76,7 +79,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: var(--font-color);
   content: "";
   display: block;
   height: 100%;

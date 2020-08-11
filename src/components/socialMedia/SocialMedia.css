@@ -8,7 +8,7 @@
 
 .icon-button i {
   color: white;
-  border-radius: 2.6rem;
+  border-radius: 50%;
   cursor: pointer;
   display: inline-block;
   font-size: 1.3rem;
@@ -70,7 +70,7 @@
 .instagram i:hover,
 .hackerrank i:hover,
 .telegram i:hover {
-  background-color: black;
+  box-shadow: white 0 0 8px;
   transition: 0.3s ease-in;
 }
 

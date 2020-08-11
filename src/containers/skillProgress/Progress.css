@@ -1,7 +1,7 @@
 .meter {
   height: 20px;
   position: relative;
-  background: rgb(243, 239, 239);
+  background: rgba(255, 255, 255, 0.5);
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
@@ -14,13 +14,15 @@
   border-bottom-right-radius: 6px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: #404040;
+  background-color: var(--font-color);
   position: relative;
   overflow: hidden;
 }
 
 .skill {
   line-height: 3.5vw;
+  font-weight: 600;
+  color: var(--font-color);
 }
 
 .skill-bars {

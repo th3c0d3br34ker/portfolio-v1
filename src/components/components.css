@@ -1,0 +1,13 @@
+@import "./button/Button.css";
+
+@import "./header/Header.css";
+
+@import "./footer/Footer.css";
+
+@import "./githubProfileCard/GithubProfileCard.css";
+
+@import "./githubRepoCard/GithubRepoCard.css";
+
+@import "./socialMedia/SocialMedia.css";
+
+@import "./softwareSkills/SoftwareSkill.css";

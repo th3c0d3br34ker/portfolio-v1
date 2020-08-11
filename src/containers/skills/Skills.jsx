@@ -1,6 +1,5 @@
 import React from "react";
-import "./Skills.css";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
+import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill.jsx";
 import { skillsSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 

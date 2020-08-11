@@ -1,0 +1,9 @@
+@import "./greeting/Greeting.css";
+
+@import "./projects/Project.css";
+
+@import "./skillProgress/Progress.css";
+
+@import "./skills/Skills.css";
+
+@import "./topbutton/Top.css";

@@ -1,8 +1,7 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
 import ApolloClient from "apollo-boost";
 import { gql } from "apollo-boost";
-import "./Project.css";
-import Button from "../../components/button/Button";
+import Button from "../../components/button/Button.jsx";
 import Loading from "../loading/Loading";
 import { openSource, socialMediaLinks } from "../../portfolio";
 

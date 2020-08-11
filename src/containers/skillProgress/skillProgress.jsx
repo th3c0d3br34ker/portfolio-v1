@@ -10,7 +10,7 @@ export default function StackProgress() {
       <Fade bottom duration={1000} distance="20px">
         <div className="skills-container">
           <div className="skills-bar">
-            <h1 className="skills-heading">{emoji("I ❤️ programming")}</h1>
+            <h1 className="skills-heading">{emoji("I 🤍 programming")}</h1>
             {techStack.experience.map((exp) => {
               const progressStyle = {
                 width: exp.progressPercentage,

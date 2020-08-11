@@ -6,8 +6,8 @@
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #202020;
-  color: white;
+  background-color: var(--font-color);
+  color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
   padding: 15px;
   border-radius: 15px;
@@ -15,6 +15,6 @@
 }
 
 #topButton:hover {
-  background-color: black;
+  background-color: var(--font-color);
   transition: all ease-in-out 0.2s;
 }

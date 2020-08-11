@@ -18,8 +18,9 @@
 
 .skills-heading {
   font-size: 56px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: normal;
+  color: var(--font-color);
 }
 
 /* Media Query */
@@ -38,7 +39,7 @@
     line-height: normal;
   }
   .skills-main-div {
-    flex-direction: column
+    flex-direction: column;
   }
   .skills-text-div {
     margin-left: 0px;
