@@ -7,6 +7,7 @@ import Projects from "./projects/Projects.jsx";
 import Footer from "../components/footer/Footer.jsx";
 import Top from "./topbutton/Top.jsx";
 import Profile from "./profile/Profile.jsx";
+import Quotes from "./quotes/quotes.jsx";
 
 export default class Main extends Component {
   render() {
@@ -17,6 +18,7 @@ export default class Main extends Component {
         <Skills />
         <StackProgress />
         <Projects />
+        <Quotes />
         <Profile />
         <Footer />
         <Top />

@@ -177,11 +177,44 @@ const contactInfo = {
   email_address: "",
 };
 
-//Twitter Section
+// Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
 };
+
+// Quotes Section
+
+const quotes = [
+  {
+    img: require("./assets/images/quotes/steve-jobs.jpg"),
+    alt: "Steve Jobs",
+    quote:
+      '" Because the people who are crazy enough to think they can change the world are the ones who do. "',
+    person: "Steve Jobs",
+  },
+  {
+    img: require("./assets/images/quotes/larry-page.jpg"),
+    alt: "Larry Page",
+    quote:
+      "\" If you're changing the world, you're working on important things. You're excited to get up in the morning. \"",
+    person: "Larry Page",
+  },
+  {
+    img: require("./assets/images/quotes/linus-torvalds.jpg"),
+    alt: "Linus Torvalds",
+    quote: '" Talk is cheap. Show me the code "',
+    person: "Linus Torvalds",
+  },
+  {
+    img: require("./assets/images/quotes/bill-gates.jpg"),
+    alt: "Bill Gates",
+    quote:
+      '" Success is a lousy teacher. It seduces smart people into thinking they can\'t lose. "',
+    person: "Bill Gates",
+  },
+];
+
 export {
   greeting,
   socialMediaLinks,
@@ -195,4 +228,5 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
+  quotes,
 };
