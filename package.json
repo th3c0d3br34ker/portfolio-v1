@@ -17,10 +17,10 @@
     "react-twitter-embed": "3.0.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "gh-pages -b master -d build"
+    "build": "CI= react-scripts build",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -b gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
