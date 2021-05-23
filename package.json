@@ -8,7 +8,7 @@
     "apollo-boost": "^0.4.9",
     "gh-pages": "^3.0.0",
     "graphql": "^14.5.8",
-    "react": "^16.10.2",
+    "react": "^16.14.0",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.4.0",
     "react-reveal": "^1.2.2",
