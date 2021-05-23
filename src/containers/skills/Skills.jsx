@@ -1,7 +1,7 @@
-import React from "react";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill.jsx";
-import { skillsSection } from "../../portfolio";
-import { Fade } from "react-reveal";
+import React from 'react';
+import SoftwareSkill from '../../components/softwareSkills/SoftwareSkill.jsx';
+import { skillsSection } from '../../portfolio';
+import { Fade } from 'react-reveal';
 
 export default function Skills() {
   return (
@@ -11,7 +11,7 @@ export default function Skills() {
           <div className="skills-image-div">
             <img
               alt="Working"
-              src={require("../../assets/images/developerActivity.svg")}
+              src={require('../../assets/images/developerActivity.svg')}
             ></img>
           </div>
         </Fade>

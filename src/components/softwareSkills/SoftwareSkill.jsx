@@ -1,5 +1,5 @@
-import React from "react";
-import { skillsSection } from "../../portfolio";
+import React from 'react';
+import { skillsSection } from '../../portfolio';
 
 export default function SoftwareSkill() {
   return (

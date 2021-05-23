@@ -1,8 +1,8 @@
-﻿import React from "react";
-import SocialMedia from "../../components/socialMedia/SocialMedia.jsx";
-import { greeting } from "../../portfolio";
-import { Fade } from "react-reveal";
-import emoji from "react-easy-emoji";
+﻿import React from 'react';
+import SocialMedia from '../../components/socialMedia/SocialMedia.jsx';
+import { greeting } from '../../portfolio';
+import { Fade } from 'react-reveal';
+import emoji from 'react-easy-emoji';
 
 export default function Greeting() {
   return (
@@ -12,9 +12,9 @@ export default function Greeting() {
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text">
-                {" "}
-                {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                {' '}
+                {greeting.title}{' '}
+                <span className="wave-emoji">{emoji('👋')}</span>
               </h1>
               <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
               <SocialMedia />
@@ -23,7 +23,7 @@ export default function Greeting() {
           <div className="greeting-image-div">
             <img
               alt="programmer"
-              src={require("../../assets/images/programmer.svg")}
+              src={require('../../assets/images/programmer.svg')}
             ></img>
           </div>
         </div>

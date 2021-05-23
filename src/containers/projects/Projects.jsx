@@ -1,13 +1,14 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
-import ApolloClient from "apollo-boost";
-import { gql } from "apollo-boost";
-import Button from "../../components/button/Button.jsx";
-import Loading from "../loading/Loading";
-import { openSource, socialMediaLinks } from "../../portfolio";
+import React, { Suspense, lazy, useEffect, useState } from 'react';
+import { openSource, socialMediaLinks } from '../../portfolio';
+
+import ApolloClient from 'apollo-boost';
+import Button from '../../components/button/Button.jsx';
+import Loading from '../loading/Loading';
+import { gql } from 'apollo-boost';
 
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
-    import("../../components/githubRepoCard/GithubRepoCard")
+    import('../../components/githubRepoCard/GithubRepoCard')
   );
   const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
@@ -15,11 +16,12 @@ export default function Projects() {
 
   useEffect(() => {
     getRepoData();
+    //eslint-disable-next-line
   }, []);
 
   function getRepoData() {
     const client = new ApolloClient({
-      uri: "https://api.github.com/graphql",
+      uri: 'https://api.github.com/graphql',
       request: (operation) => {
         operation.setContext({
           headers: {
@@ -66,9 +68,9 @@ export default function Projects() {
       })
       .catch(function (error) {
         console.log(error);
-        setrepoFunction("Error");
+        setrepoFunction('Error');
         console.log(
-          "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
+          'Because of this Error, nothing is shown in place of Projects section. Projects section not configured'
         );
       });
   }
@@ -76,7 +78,7 @@ export default function Projects() {
   function setrepoFunction(array) {
     setrepo(array);
   }
-  if (!(typeof repo === "string" || repo instanceof String)) {
+  if (!(typeof repo === 'string' || repo instanceof String)) {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
@@ -87,7 +89,7 @@ export default function Projects() {
             })}
           </div>
           <Button
-            text={"More Projects"}
+            text={'More Projects'}
             className="project-button"
             href={socialMediaLinks.github}
             newTab={true}

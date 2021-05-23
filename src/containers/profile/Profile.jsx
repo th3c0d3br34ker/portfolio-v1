@@ -1,12 +1,13 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
-import ApolloClient, { gql } from "apollo-boost";
-import { openSource } from "../../portfolio";
-import Contact from "../contact/Contact";
-import Loading from "../loading/Loading";
+import ApolloClient, { gql } from 'apollo-boost';
+import React, { Suspense, lazy, useEffect, useState } from 'react';
+
+import Contact from '../contact/Contact';
+import Loading from '../loading/Loading';
+import { openSource } from '../../portfolio';
 
 const renderLoader = () => <Loading />;
 const GithubProfileCard = lazy(() =>
-  import("../../components/githubProfileCard/GithubProfileCard")
+  import('../../components/githubProfileCard/GithubProfileCard')
 );
 export default function Profile() {
   const [prof, setrepo] = useState([]);
@@ -15,7 +16,7 @@ export default function Profile() {
   }
   function getProfileData() {
     const client = new ApolloClient({
-      uri: "https://api.github.com/graphql",
+      uri: 'https://api.github.com/graphql',
       request: (operation) => {
         operation.setContext({
           headers: {
@@ -42,23 +43,25 @@ export default function Profile() {
       .then((result) => {
         setProfileFunction(result.data.user);
       })
-      .catch(function (error) {
+      .catch((error) => {
         console.log(error);
-        setProfileFunction("Error");
+        setProfileFunction('Error');
         console.log(
-          "Because of this Error Contact Section is Showed instead of Profile"
+          'Because of this Error Contact Section is Showed instead of Profile'
         );
-        openSource.showGithubProfile = "false";
+        openSource.showGithubProfile = 'false';
       });
   }
   useEffect(() => {
-    if (openSource.showGithubProfile === "true") {
+    if (openSource.showGithubProfile === 'true') {
       getProfileData();
     }
+    //eslint-disable-next-line
   }, []);
+
   if (
-    openSource.showGithubProfile === "true" &&
-    !(typeof prof === "string" || prof instanceof String)
+    openSource.showGithubProfile === 'true' &&
+    !(typeof prof === 'string' || prof instanceof String)
   ) {
     return (
       <Suspense fallback={renderLoader()}>

@@ -1,8 +1,8 @@
-import React from "react";
-import emoji from "react-easy-emoji";
-import "./Progress.css";
-import { techStack } from "../../portfolio";
-import { Fade } from "react-reveal";
+import React from 'react';
+import emoji from 'react-easy-emoji';
+import './Progress.css';
+import { techStack } from '../../portfolio';
+import { Fade } from 'react-reveal';
 
 export default function StackProgress() {
   if (techStack.viewSkillBars) {
@@ -10,7 +10,7 @@ export default function StackProgress() {
       <Fade bottom duration={1000} distance="20px">
         <div className="skills-container">
           <div className="skills-bar">
-            <h1 className="skills-heading">{emoji("I 🤍 programming")}</h1>
+            <h1 className="skills-heading">{emoji('I 🤍 programming')}</h1>
             {techStack.experience.map((exp) => {
               const progressStyle = {
                 width: exp.progressPercentage,
@@ -27,7 +27,7 @@ export default function StackProgress() {
           </div>
 
           <div className="skills-image">
-            <img alt="Skills" src={require("../../assets/images/skill.svg")} />
+            <img alt="Skills" src={require('../../assets/images/skill.svg')} />
           </div>
         </div>
       </Fade>

@@ -1,6 +1,6 @@
-import React from "react";
-import { Fade } from "react-reveal";
-import { greeting } from "../../portfolio";
+import React from 'react';
+import { Fade } from 'react-reveal';
+import { greeting } from '../../portfolio';
 
 function Header() {
   return (
@@ -19,6 +19,12 @@ function Header() {
           <ul className="menu">
             <li>
               <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#education">Education</a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
             </li>
             <li>
               <a href="#opensource">Open Source</a>

@@ -80,7 +80,7 @@
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
   background: var(--font-color);
-  content: "";
+  content: '';
   display: block;
   height: 100%;
   position: absolute;

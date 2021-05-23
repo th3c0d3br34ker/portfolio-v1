@@ -1,0 +1,99 @@
+.wrapper {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#logo path:nth-child(2) {
+  stroke-dasharray: 285.1295166015625;
+  stroke-dashoffset: -285.1295166015625;
+  animation: line-animate 1.2s ease forwards;
+}
+#logo path:nth-child(3) {
+  stroke-dasharray: 337.21826171875;
+  stroke-dashoffset: -337.21826171875;
+  animation: line-animate 1.2s ease forwards 0.2s;
+}
+#logo path:nth-child(4) {
+  stroke-dasharray: 322.5697937011719;
+  stroke-dashoffset: 322.5697937011719;
+  animation: line-animate 1.2s ease forwards 0.4s;
+}
+#logo path:nth-child(5) {
+  stroke-dasharray: 233.43209838867188;
+  stroke-dashoffset: -233.43209838867188;
+  animation: line-animate 1.2s ease forwards 0.6s;
+}
+#logo path:nth-child(6) {
+  stroke-dasharray: 412.1347961425781;
+  stroke-dashoffset: -412.1347961425781;
+  animation: line-animate 1.2s ease forwards 0.8s;
+}
+#logo path:nth-child(7) {
+  stroke-dasharray: 362.5745849609375;
+  stroke-dashoffset: -362.5745849609375;
+  animation: line-animate 1.2s ease forwards 1s;
+}
+#logo path:nth-child(8) {
+  stroke-dasharray: 322.5697937011719;
+  stroke-dashoffset: -322.5697937011719;
+  animation: line-animate 1.2s ease forwards 1.2s;
+}
+#logo path:nth-child(9) {
+  stroke-dasharray: 359.27587890625;
+  stroke-dashoffset: -359.27587890625;
+  animation: line-animate 1.2s ease forwards 1.4s;
+}
+#logo path:nth-child(10) {
+  stroke-dasharray: 226.22027587890625;
+  stroke-dashoffset: -226.22027587890625;
+  animation: line-animate 1.2s ease forwards 1.6s;
+}
+#logo path:nth-child(11) {
+  stroke-dasharray: 322.5711364746094;
+  stroke-dashoffset: -322.5711364746094;
+  animation: line-animate 1.2s ease forwards 1.8s;
+}
+#logo path:nth-child(12) {
+  stroke-dasharray: 347.14105224609375;
+  stroke-dashoffset: -347.14105224609375;
+  animation: line-animate 1.2s ease forwards 2s;
+}
+#logo path:nth-child(13) {
+  stroke-dasharray: 353.8001403808594;
+  stroke-dashoffset: -353.8001403808594;
+  animation: line-animate 1.2s ease forwards 2.2s;
+}
+#logo path:nth-child(12) {
+  stroke-dasharray: 327.83770751953125;
+  stroke-dashoffset: -327.83770751953125;
+  animation: line-animate 1.2s ease forwards 2.4s;
+}
+#logo path:nth-child(13) {
+  stroke-dasharray: 353.8001403808594;
+  stroke-dashoffset: -353.8001403808594;
+  animation: line-animate 1.2s ease forwards 2.6s;
+}
+#logo path:nth-child(14) {
+  stroke-dasharray: 327.83770751953125;
+  stroke-dashoffset: -327.83770751953125;
+  animation: line-animate 1.2s ease forwards 2.8s;
+}
+#logo path:nth-child(15) {
+  stroke-dasharray: 226.2207794189453;
+  stroke-dashoffset: -226.2207794189453;
+  animation: line-animate 1.2s ease forwards 3s;
+}
+
+@keyframes line-animate {
+  from {
+    stroke-width: 12;
+    fill: #1c1c1c;
+  }
+  to {
+    stroke-dashoffset: 0;
+    stroke-width: 3;
+    fill: #1c1c1c;
+  }
+}

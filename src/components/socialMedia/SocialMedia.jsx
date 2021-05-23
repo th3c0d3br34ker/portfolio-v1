@@ -1,5 +1,5 @@
-import React from "react";
-import { socialMediaLinks } from "../../portfolio";
+import React from 'react';
+import { socialMediaLinks } from '../../portfolio';
 
 export default function socialMedia() {
   return (

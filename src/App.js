@@ -1,6 +1,5 @@
-import React from "react";
-import "./App.css";
-import Main from "./containers/Main.jsx";
+import Main from './containers/Main.jsx';
+import React from 'react';
 
 function App() {
   return (

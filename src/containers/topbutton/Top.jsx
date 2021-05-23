@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function Top() {
   function TopEvent() {
@@ -11,9 +11,9 @@ export default function Top() {
       document.body.scrollTop > 20 ||
       document.documentElement.scrollTop > 20
     ) {
-      document.getElementById("topButton").style.visibility = "visible";
+      document.getElementById('topButton').style.visibility = 'visible';
     } else {
-      document.getElementById("topButton").style.visibility = "hidden";
+      document.getElementById('topButton').style.visibility = 'hidden';
     }
   }
   window.onscroll = function () {

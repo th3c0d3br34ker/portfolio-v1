@@ -1,8 +1,8 @@
-import React from "react";
-import "./Contact.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-    import { contactInfo } from "../../portfolio";
-import { Fade } from "react-reveal";
+import React from 'react';
+import './Contact.css';
+import SocialMedia from '../../components/socialMedia/SocialMedia';
+import { contactInfo } from '../../portfolio';
+import { Fade } from 'react-reveal';
 
 export default function Contact() {
   return (
@@ -14,14 +14,14 @@ export default function Contact() {
             <p className="subTitle contact-subtitle">{contactInfo.subtitle}</p>
 
             <div className="contact-text-div">
-              <a className="contact-detail" href={"tel:" + contactInfo.number}>
+              <a className="contact-detail" href={'tel:' + contactInfo.number}>
                 {contactInfo.number}
               </a>
               <br />
               <br />
               <a
                 className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
+                href={'mailto:' + contactInfo.email_address}
               >
                 {contactInfo.email_address}
               </a>
@@ -33,7 +33,7 @@ export default function Contact() {
           <div className="contact-image-div">
             <img
               alt="Working"
-              src={require("../../assets/images/contactMail.png")}
+              src={require('../../assets/images/contactMail.png')}
             ></img>
           </div>
         </div>
