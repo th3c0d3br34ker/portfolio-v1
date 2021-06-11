@@ -10,6 +10,7 @@ const GithubProfileCard = lazy(() =>
   import('../../components/githubProfileCard/GithubProfileCard')
 );
 export default function Profile() {
+  console.log(openSource.githubConvertedToken);
   const [prof, setrepo] = useState([]);
   function setProfileFunction(array) {
     setrepo(array);

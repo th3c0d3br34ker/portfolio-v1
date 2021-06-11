@@ -6,7 +6,11 @@ export default function EducationCard({ school }) {
 
   const GetDescBullets = ({ descBullets }) => {
     return descBullets
-      ? descBullets.map((item) => <li className="subTitle">{item}</li>)
+      ? descBullets.map((item, idx) => (
+          <li key={idx} className="subTitle">
+            {item}
+          </li>
+        ))
       : null;
   };
 
