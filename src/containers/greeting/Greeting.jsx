@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import SocialMedia from '../../components/socialMedia/SocialMedia.jsx';
 import { greeting } from '../../portfolio';
 import { Fade } from 'react-reveal';

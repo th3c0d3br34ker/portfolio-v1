@@ -5,18 +5,20 @@
   "private": true,
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
+    "@babel/helper-validator-identifier": "^7.14.5",
+    "@types/react": "^16.8.0",
     "apollo-boost": "^0.4.9",
+    "colorthief": "^2.3.2",
     "gh-pages": "^3.2.0",
     "graphql": "^14.5.8",
     "react": "^16.14.0",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.5.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^4.0.3",
     "react-twitter-embed": "3.0.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -b master -d build"
@@ -26,7 +28,7 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      ">0.3%",
       "not dead",
       "not op_mini all"
     ],
@@ -35,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.14.5"
   }
 }
