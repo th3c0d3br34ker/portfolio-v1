@@ -4,6 +4,10 @@
 
 import emoji from 'react-easy-emoji';
 
+import VIT_Logo from './assets/images/VIT_logo.png';
+import Humourbaba_image from './assets/images/Humourbaba.jpg';
+import Skillship_image from './assets/images/SkillShip.jpg';
+
 const greeting = {
   /* Your Summary And Greeting Section */
   username: 'Jainam Desai',
@@ -188,34 +192,26 @@ const educationInfo = {
   schools: [
     {
       schoolName: 'Vellore Institute of Technology, Vellore',
-      logo: require('./assets/images/VIT_logo.png'),
+      logo: VIT_Logo,
       subHeader: 'Master of Science in Computer Science',
       duration: 'July 2019 - Present',
       desc: 'Participated in various co-cirricular activities.',
       descBullets: [
         'CGPA: 9.1 (As of Fall Semester 2020)',
-        'Core committee member of AYUDA NGO.',
-        'Core committee member of Mozilla Firefox Club.',
+        'Vice Chairperson of AYUDA NGO.',
+        'Vice Chairperson of Skillship Foundation, Vellore.',
       ],
     },
   ],
 };
 
 const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
+  viewExperiences: false, //Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: 'Vice Chairperson',
-    //   company: 'NGO Ayuda',
-    //   companylogo: require('./assets/images/Ayuda.jpg'),
-    //   date: 'March 2021 – Present',
-    //   desc: '',
-    //   descBullets: ['Currently serving as the board member of the NGO.'],
-    // },
     {
       role: 'Software Intern',
       company: 'Humourbaba',
-      companylogo: require('./assets/images/Humourbaba.jpg'),
+      companylogo: Humourbaba_image,
       date: 'Nov 2020 – Present',
       desc: 'Humourbaba is a next-generation fandom shopping platform crafting technologically advanced premium merchandise.',
       descBullets: [
@@ -225,7 +221,7 @@ const workExperiences = {
     {
       role: 'Tech Intern',
       company: 'SkillShip Foundation',
-      companylogo: require('./assets/images/SkillShip.jpg'),
+      companylogo: Skillship_image,
       date: 'Sept 2020 – Present',
       desc: 'SkillShip foundation is a section-8 Non-Profit Organization incorporated under Government of India, Skillship is open for all network, in spite of the fact that it bolsters assorted variety and needs to acquire diversity Education, in this manner, saves half of seats for under-spoke to gatherings including women, LGBTQ to mitigate poverty among-est needy and poor and other weaker sections by providing support and intervention to create of a culture of entrepreneurship and undertake skill gap analysis and addressing the issues by creating infrastructure in the form of Innovation centers and support systems and providing them assistance in form of mentoring and training residential',
     },

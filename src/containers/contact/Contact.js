@@ -4,6 +4,8 @@ import SocialMedia from '../../components/socialMedia/SocialMedia';
 import { contactInfo } from '../../portfolio';
 import { Fade } from 'react-reveal';
 
+import Contact_logo from '../../assets/images/contactMail.png';
+
 export default function Contact() {
   return (
     <Fade bottom duration={1000} distance="20px">
@@ -31,10 +33,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-image-div">
-            <img
-              alt="Working"
-              src={require('../../assets/images/contactMail.png')}
-            ></img>
+            <img alt="Working" src={Contact_logo}></img>
           </div>
         </div>
       </div>

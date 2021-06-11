@@ -4,6 +4,8 @@ import { greeting } from '../../portfolio';
 import { Fade } from 'react-reveal';
 import emoji from 'react-easy-emoji';
 
+import Greetings_illustration from '../../assets/images/programmer.svg';
+
 export default function Greeting() {
   return (
     <Fade bottom duration={1000} distance="40px">
@@ -21,10 +23,7 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            <img
-              alt="programmer"
-              src={require('../../assets/images/programmer.svg')}
-            ></img>
+            <img alt="programmer" src={Greetings_illustration}></img>
           </div>
         </div>
       </div>

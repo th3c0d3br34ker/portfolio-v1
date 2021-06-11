@@ -21,7 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b master -d build",
+    "format": "prettier --write \"./**/*.{js,css,json,scss}\""
   },
   "eslintConfig": {
     "extends": "react-app"
