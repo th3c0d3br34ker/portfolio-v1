@@ -1,0 +1,15 @@
+{
+  "short_name": "Jainam Desai Portfolio",
+  "name": "Jainam Desai Portfolio",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6c63ff",
+  "background_color": "#ffffff"
+}
