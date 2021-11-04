@@ -6,7 +6,7 @@
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
     "@babel/helper-validator-identifier": "^7.14.8",
-    "@types/react": "^17.0.15",
+    "@types/react": "^17.0.34",
     "apollo-boost": "^0.4.9",
     "colorthief": "^2.3.2",
     "gh-pages": "^3.2.3",
