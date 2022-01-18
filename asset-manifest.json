@@ -1,32 +1,26 @@
 {
   "files": {
-    "main.css": "/th3c0d3br34ker.github.io/static/css/main.9b98db25.chunk.css",
-    "main.js": "/th3c0d3br34ker.github.io/static/js/main.f4f33d83.chunk.js",
-    "main.js.map": "/th3c0d3br34ker.github.io/static/js/main.f4f33d83.chunk.js.map",
-    "runtime-main.js": "/th3c0d3br34ker.github.io/static/js/runtime-main.d37ca221.js",
-    "runtime-main.js.map": "/th3c0d3br34ker.github.io/static/js/runtime-main.d37ca221.js.map",
-    "static/js/2.9a7b4509.chunk.js": "/th3c0d3br34ker.github.io/static/js/2.9a7b4509.chunk.js",
-    "static/js/2.9a7b4509.chunk.js.map": "/th3c0d3br34ker.github.io/static/js/2.9a7b4509.chunk.js.map",
-    "static/js/3.ff4c9da5.chunk.js": "/th3c0d3br34ker.github.io/static/js/3.ff4c9da5.chunk.js",
-    "static/js/3.ff4c9da5.chunk.js.map": "/th3c0d3br34ker.github.io/static/js/3.ff4c9da5.chunk.js.map",
-    "static/js/4.426d5138.chunk.js": "/th3c0d3br34ker.github.io/static/js/4.426d5138.chunk.js",
-    "static/js/4.426d5138.chunk.js.map": "/th3c0d3br34ker.github.io/static/js/4.426d5138.chunk.js.map",
+    "main.css": "/th3c0d3br34ker.github.io/static/css/main.29356122.css",
+    "main.js": "/th3c0d3br34ker.github.io/static/js/main.a23a2ee0.js",
+    "static/js/766.5363a443.chunk.js": "/th3c0d3br34ker.github.io/static/js/766.5363a443.chunk.js",
+    "static/js/741.38a10ee7.chunk.js": "/th3c0d3br34ker.github.io/static/js/741.38a10ee7.chunk.js",
+    "static/media/VIT_logo.png": "/th3c0d3br34ker.github.io/static/media/VIT_logo.0dcabf0c2f77b9def1e9.png",
+    "static/media/Montserrat-Regular.ttf": "/th3c0d3br34ker.github.io/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/contactMail.png": "/th3c0d3br34ker.github.io/static/media/contactMail.0bc4d3657ce3614bb1c5.png",
+    "static/media/Agustina.woff": "/th3c0d3br34ker.github.io/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/Humourbaba.jpg": "/th3c0d3br34ker.github.io/static/media/Humourbaba.e3e287d6fad9cfd4b508.jpg",
+    "static/media/SkillShip.jpg": "/th3c0d3br34ker.github.io/static/media/SkillShip.a1e05a22a233a82a5605.jpg",
+    "static/media/developerActivity.svg": "/th3c0d3br34ker.github.io/static/media/developerActivity.2306126bd8f40a8c79031d9d327e3630.svg",
+    "static/media/skill.svg": "/th3c0d3br34ker.github.io/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/programmer.svg": "/th3c0d3br34ker.github.io/static/media/programmer.d6bd8b289e6f3fb84e37d9f464f461fc.svg",
     "index.html": "/th3c0d3br34ker.github.io/index.html",
-    "static/css/main.9b98db25.chunk.css.map": "/th3c0d3br34ker.github.io/static/css/main.9b98db25.chunk.css.map",
-    "static/js/2.9a7b4509.chunk.js.LICENSE.txt": "/th3c0d3br34ker.github.io/static/js/2.9a7b4509.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/th3c0d3br34ker.github.io/static/media/Montserrat-Regular.3cd78665.ttf",
-    "static/media/Humourbaba.e3e287d6.jpg": "/th3c0d3br34ker.github.io/static/media/Humourbaba.e3e287d6.jpg",
-    "static/media/SkillShip.a1e05a22.jpg": "/th3c0d3br34ker.github.io/static/media/SkillShip.a1e05a22.jpg",
-    "static/media/VIT_logo.0dcabf0c.png": "/th3c0d3br34ker.github.io/static/media/VIT_logo.0dcabf0c.png",
-    "static/media/contactMail.0bc4d365.png": "/th3c0d3br34ker.github.io/static/media/contactMail.0bc4d365.png",
-    "static/media/developerActivity.2306126b.svg": "/th3c0d3br34ker.github.io/static/media/developerActivity.2306126b.svg",
-    "static/media/programmer.d6bd8b28.svg": "/th3c0d3br34ker.github.io/static/media/programmer.d6bd8b28.svg",
-    "static/media/skill.35a14766.svg": "/th3c0d3br34ker.github.io/static/media/skill.35a14766.svg"
+    "main.29356122.css.map": "/th3c0d3br34ker.github.io/static/css/main.29356122.css.map",
+    "main.a23a2ee0.js.map": "/th3c0d3br34ker.github.io/static/js/main.a23a2ee0.js.map",
+    "766.5363a443.chunk.js.map": "/th3c0d3br34ker.github.io/static/js/766.5363a443.chunk.js.map",
+    "741.38a10ee7.chunk.js.map": "/th3c0d3br34ker.github.io/static/js/741.38a10ee7.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d37ca221.js",
-    "static/js/2.9a7b4509.chunk.js",
-    "static/css/main.9b98db25.chunk.css",
-    "static/js/main.f4f33d83.chunk.js"
+    "static/css/main.29356122.css",
+    "static/js/main.a23a2ee0.js"
   ]
 }
