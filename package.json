@@ -8,7 +8,7 @@
     "@babel/helper-validator-identifier": "^7.19.1",
     "@types/react": "^18.0.9",
     "apollo-boost": "^0.4.9",
-    "colorthief": "^2.3.2",
+    "colorthief": "^2.4.0",
     "gh-pages": "^4.0.0",
     "graphql": "^15.8.0",
     "react": "^16.14.0",
