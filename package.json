@@ -40,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/parser": "^7.20.7"
+    "@babel/parser": "^7.21.4"
   }
 }
