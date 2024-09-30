@@ -10,7 +10,7 @@
     "apollo-boost": "^0.4.9",
     "colorthief": "^2.4.0",
     "gh-pages": "^5.0.0",
-    "graphql": "^15.8.0",
+    "graphql": "^15.9.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-easy-emoji": "^1.8.1",
